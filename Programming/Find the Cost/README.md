@@ -5,7 +5,7 @@
 
 ## Find The Cost.png
 
-![Find The Cost](FindTheCost.png)
+![Find The Cost](Find_The_Cost.png)
 
 ## Resolving
 
