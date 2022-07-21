@@ -7,6 +7,8 @@
 
 ![Find The Cost](FindTheCost.png)
 
+## Resolving
+
 We can create this script with python :
 
 ``` ruby
