@@ -3,6 +3,9 @@
 ## Instruction
 ![Instruction](Instruction.png)
 
+# Solving
+
+**Game ID : OQFRP{pelcg0_ne3_nj3f0z3}**
 
 With Dcode we can find the encryption type : [dcode.fr/cipher-identifier](https://www.dcode.fr/cipher-identifier)
 It's a subsitution encryption : Affine Cipher
