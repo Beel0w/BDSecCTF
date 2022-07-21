@@ -6,7 +6,7 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 ## Rules
 - Time : 24h (07/20/22 17h - 07/21/22 17h (UTC+2) )
 - Max Pers per Team : 5
-- Submit Limit : 30 
+- Submit Limit : 30 per chall
 
 ## Results
 ![Screenshot](Stats.png) Team Subuthax - 27/542
