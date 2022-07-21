@@ -5,7 +5,7 @@
 
 # Resolving 
 
-With a small search on internet, we find a corresponding profile on mastodon  
+With a small search on internet, we find a corresponding profile on mastodon  - We can also use [Sherlock Project](https://sherlock-project.github.io/) to find a username across many social networks profilehttps://sherlock-project.github.io/
 [mastodon.social/@rejvikhan](https://mastodon.social/@rejvikhan)
 
 We can see this QR Code :  
