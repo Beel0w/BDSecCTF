@@ -38,7 +38,7 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 | Loop Lover                                    | Crypto        | dyn   | 100     | ✘ | `BDSEC{ju57_L00p_m3_4w4y}` |
 | Jungle Templating                                    | WEB        |  0xmahi   | 100     | ✔ | `BDSEC{Y3Y_7H1515_7H3_F146}` |
 | Awesome Note Keeping                                    | WEB        |  NomanProdhan   | 100     | ✔ | `BDSEC{tHe_n0t3_K33p1n6_4W350M3_N5}` |
-| Knight Squad Shop                                    | WEB        |  froghunter   | 100     | ✔ | `` |
+| Knight Squad Shop                                    | WEB        |  froghunter   | 100     | ✔ | `BDSEC{mummy_i_can't_write_javaScript}` |
 | [Find The Cost](https://github.com/Beel0w/BDSecCTF/tree/main/Programming/Find%20the%20Cost)                                    | Programing        | marufmurtuza| 100     | ✔ | `BDSEC{35,47}` |
 | Find The Masterpiece                                    | OSINT        | marufmurtuza   | 50     | ✔ | `BDSEC{he’s_a_pirate,2003}` |
 | [Find Rejvi](https://github.com/Beel0w/BDSecCTF/tree/main/OSINT/Find%20Rejvi)                                    | OSINT        | NomanProdhan   | 70     | ✔ | `BDSEC{yoU_goT_m3__oS1nT_I5_fUn_r1Gh7}` |
