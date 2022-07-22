@@ -21,7 +21,7 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 |------------------------------------------------------------------|:-------------:|:----------:|:--------------:|:------:|:---------------------------------:|
 | Sound's Good                                    | Stegano          | pmsiam   | 50     | ✘ | `` |
 | Deep Dive Into It !!                                           | Stegano        | pmsiam   | 250     | ✘ | `` |
-| PwnRace                                    | PWN        | froghunter   | 200     | ✔ | `XXCTF{Its_a_TEst}` |
+| PwnRace                                    | PWN        | froghunter   | 200     | ✔ | `` |
 | BDSec License Checker 0x1                                    | Reverse        | NomanProdhan   | 50     | ✘ | `BDSEC{l1c3n53_ch3ck3r_0x1_2022}` |
 | shashdot                                    | Reverse        | froghunter   | 50     | ✘ | `` |
 | Flag Box                                    | Reverse        |  marufmurtuza   | 100     | ✔ | `` |
@@ -63,7 +63,9 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 | Vulnerable Service | Networking        | TareqAhamed   | 50     | ✔ | `` |
 | msg.txt | Networking        | TareqAhamed   | 50     | ✔ | `` |
 | Attacker | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{N4N0M473}` |
-| Server User's | Networking        | TareqAhamed   | 50     | ✔ | `` |
+| Server User's | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{8}` |  
+
+**Total : 46 Challenges ( 3220 Points )**
  
 Credits : [Beel0w](https://github.com/Beel0w)  
 Last Edited on: 22/07/2022
