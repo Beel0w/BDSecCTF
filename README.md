@@ -17,8 +17,8 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 
 ## Challenges
 
-| Chall Name                                                       | Category     | Author     | Points | Completed | Flag |
-|------------------------------------------------------------------|:-------------:|:----------:|:--------------:|:------:|:---------------------------------:|
+| Chall Name                                                       | Category     | Author     | Points | Done | Flag |
+|------------------------------------------------------------------|:-------------:|:----------:|:--------------:|:------:|:---------:|
 | Sound's Good                                    | Stegano          | pmsiam   | 50     | ✘ | `` |
 | Deep Dive Into It !!                                           | Stegano        | pmsiam   | 250     | ✘ | `` |
 | PwnRace                                    | PWN        | froghunter   | 200     | ✔ | `` |
