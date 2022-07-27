@@ -21,7 +21,7 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 
 | Chall Name | Points | Goal | Flag |
 |------------|:------:|:----:|:----:|
-| Sound's Good ✘|50||``|
+| [Sound's Good ✘](https://github.com/Beel0w/BDSecCTF/tree/main/Steganography/Sound's%20Good)|50|Convert a base 64 to .mp3. Listen and then convert the resulting number from bytes.fromhex to text. |<details><summary>`Spoiler`</summary>`BDSEC{Y3s_Y0U_GOT_Th3_Fl4G!|}`</details>|
 | Deep Dive Into It !! ✘|250||``|
 
 ### PWN
@@ -46,11 +46,11 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 
 | Chall Name | Points | Goal | Flag |
 |------------|:------:|:----:|:----:|
-|Crypto Code ✔|25||<details><summary>`Spoiler`</summary>`BDSEC{cryp70_and_pyth0n_ar3_aw3s0me}`</details> |
-|[VIPx01 ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/VIPx01)|25|| <details><summary>`Spoiler`</summary>`BDSEC{crypt0_ar3_aw3s0m3}`</details> |
+|[Crypto Code ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/Cryptocode)|25|Using a python library to decrypt a message|<details><summary>`Spoiler`</summary>`BDSEC{cryp70_and_pyth0n_ar3_aw3s0me}`</details> |
+|[VIPx01 ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/VIPx01)|25|Decrypting an encrypted message with Affine Cipher| <details><summary>`Spoiler`</summary>`BDSEC{crypt0_ar3_aw3s0m3}`</details> |
 |VIPx02 ✘|25||<details><summary>`Spoiler`</summary>`BDSEC{crypt0_ar3_aw3s0m3_&_try_t0_1earn_crypt0}`</details> |
-|[Fake ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/Fake)|50||<details><summary>`Spoiler`</summary>`BDSEC{do3sn't_b3li3ve_1n_unkn0wn_mail}`</details> |
-|[Basically RSA ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/Basically%20RSA)|100||<details><summary>`Spoiler`</summary>`DSEC{r54_i5_fUn_r16h7?}`</details> |
+|[Fake ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/Fake)|50|Decrypt a message in the form of spam|<details><summary>`Spoiler`</summary>`BDSEC{do3sn't_b3li3ve_1n_unkn0wn_mail}`</details> |
+|[Basically RSA ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Cryptography/Basically%20RSA)|100|Decrypting an encrypted message with RSA|<details><summary>`Spoiler`</summary>`DSEC{r54_i5_fUn_r16h7?}`</details> |
 |Dominoes ✘|50||<details><summary>`Spoiler`</summary>`BDSEC{n0t_50_e45y_hUh?_433}`</details> |
 |Loop Lover ✘|100||<details><summary>`Spoiler`</summary>`BDSEC{ju57_L00p_m3_4w4y}`</details> |
 
@@ -59,7 +59,7 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 | Chall Name | Points | Goal | Flag |
 |------------|:------:|:----:|:----:|
 |Jungle Templating ✔|100||<details><summary>`Spoiler`</summary>`BDSEC{Y3Y_7H1515_7H3_F146}`</details> |
-|Awesome Note Keeping ✔|100|| <details><summary>`Spoiler`</summary>`BDSEC{tHe_n0t3_K33p1n6_4W350M3_N5}`</details> |
+|[Awesome Note Keeping ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Web/Awesome%20Note%20Keeping)|100|Understanding how the script works in php to bypass the system| <details><summary>`Spoiler`</summary>`BDSEC{tHe_n0t3_K33p1n6_4W350M3_N5}`</details> |
 |Knight Squad Shop ✔|100|| <details><summary>`Spoiler`</summary>`BDSEC{mummy_i_can't_write_javaScript}`</details> |
 
 ### Programming
@@ -80,7 +80,7 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 
 | Chall Name | Points | Goal | Flag |
 |------------|:------:|:----:|:----:|
-|[Message of Hufflepuff ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Misc/Message%20of%20Hufflepuff)                     |50||<details><summary>`Spoiler`</summary>`BDSEC{Huffm@n_Enc0d1ng_go7_D3COD3D}`</details> |
+|[Message of Hufflepuff ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Misc/Message%20of%20Hufflepuff)|50|Find a message from a probability diagram|<details><summary>`Spoiler`</summary>`BDSEC{Huffm@n_Enc0d1ng_go7_D3COD3D}`</details> |
 |Find Me Inside ✔|50||<details><summary>`Spoiler`</summary>`BDSEC{M33m_the_butterfly_goes_up_up_and_away}`</details> |
 
 ### Networking
@@ -111,5 +111,5 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 **Total : 46 Challenges ( 3220 Points )**
  
 Credits : [Beel0w](https://github.com/Beel0w)  
-Last Edited on: 22/07/2022
+Last Edited on: 27/07/2022
   
